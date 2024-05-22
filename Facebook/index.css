@@ -1,0 +1,122 @@
+body{
+    max-width: 100%;
+    max-height: 100%;
+    background-color:#f0f2f5;
+}
+.container{
+    margin-top: 130px;
+   line-height: normal;
+    display: flex;
+    column-gap: 20px;
+    /* background-color: bisque; */
+}
+
+.left{
+    margin-top: 90px;
+    margin-left: 15px;
+    flex: 40%;
+    /* background-color: #42b72a; */
+    
+}
+.right{
+    flex: 60%;
+    /* background-color: aqua; */
+  
+}
+h1{
+
+font: 4em sans-serif;
+color:#0866ff;
+margin-left: 10px;
+font-weight: bolder;
+margin-bottom: 0;
+
+}
+p{
+margin-top: 0px;
+font-size: 1.8rem;
+margin-left: 10px;
+
+}
+.form{
+
+      width: 310px;
+      height:350px;
+      background-color: white;
+      /* border: 1px solid rgb(82, 82, 82); */
+      margin-left: 250px ;
+      padding: 20px;
+      font-weight: 100px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  
+    }          
+       input{
+         width: 280px;
+         height: 15px;
+         margin: 6px;
+         /* border: none; */
+         padding: 10px;
+         border-radius: 5px;
+         align-items: center;
+         font-size: large;
+         justify-content: center;
+     }
+
+     #button{
+             height: 40px;
+             width:300px ;
+             border-radius: 5px;
+             }
+             #btn{
+             height: 40px;
+             width:250px ;
+             border-radius: 5px;
+             margin-left:20px;
+         }
+        h3,section{
+            text-align: center;
+          }
+          span{
+          display: none;
+          color: red;
+          justify-content: center;
+          margin-left: 5px;
+          }
+            .A{
+            color: #0866ff;
+          }
+
+@media screen and (max-width: 768px) {
+    .left{
+        margin-top:-150px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+        width: 350px;    
+      }
+     .container{
+          display: flex;
+          flex-direction: column;
+     }
+     .right{
+      margin-left: -100px;
+     }
+    }
+@media screen and (max-width: 320px) {
+      .left{
+          margin-top:-150px;
+          display: flex;
+          flex-direction: column;
+          margin-left: 40px;
+          width: 250px;
+        
+      }
+     .container{
+          display: flex;
+          flex-direction: column;
+     }
+      .right{
+       margin-left: -250px;
+      }
+}
